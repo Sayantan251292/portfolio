@@ -1,10 +1,6 @@
 
 .nav{
     height: 2rem;
-    /* text-align: center; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .nav_text{
@@ -12,4 +8,18 @@
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.flex_props{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gap{
+  gap: 10rem;
+}
+
+.no_dec{
+  text-decoration: none;
 }

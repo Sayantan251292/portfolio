@@ -1,14 +1,24 @@
 import React from 'react';
 import styles from './navbar.module.css';
+import Link from 'next/link';
 
 export default function Navbar() {
+
     return (
-        <div className={`${styles.nav} mx-2 ${styles.nav_text}`}>
+        <div className={`${styles.nav} mx-2 ${styles.flex_props}`}>
+            <Link href="/" className={`${styles.nav_text} ${styles.no_dec}`}>
             <div>Home</div>
+            </Link>
+            <Link href="/About" className={`${styles.nav_text} ${styles.no_dec}`}>
             <div>About</div>
-            <div>Projects</div>
-            <div>Contact</div>
-            <div>Resume</div>
+            </Link>
+            <Link href="" className={`${styles.nav_text} ${styles.no_dec}`}>
+            <div >Projects</div>
+            </Link>
+            <Link href="" className={`${styles.nav_text} ${styles.no_dec}`}>
+            <div >Contact</div>
+            </Link>
+            <div  className={`${styles.nav_text}`}>Resume</div>
         </div>
     )
 }

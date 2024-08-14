@@ -17,6 +17,33 @@
   color: #fff;
 }
 
+.text_roboto{
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .tilt{
     transform: rotate(-10deg);
+}
+
+.white{
+    color: #fff;
+}
+
+.font_16px{
+    font-size: 16px;
+}
+
+.left_margin{
+    margin-left: 0.5rem;
+}
+
+.socials{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
 }

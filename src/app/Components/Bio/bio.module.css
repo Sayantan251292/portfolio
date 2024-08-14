@@ -1,0 +1,39 @@
+.white_background{
+    background-color: #fff;
+}
+
+.h_100pct{
+    height: 100%;
+}
+
+.center_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.flex_col{
+    flex-direction: column;
+}
+
+.roboto{
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.w_80pct{
+    width: 80%;
+}
+
+.pad_3rem{
+    padding: 3rem;
+}
