@@ -20,7 +20,7 @@ export default function LandingPage() {
                     <span className={`${styles.font_16px}`}>
                         I am a 
                     <span className={styles.left_margin}><Typewriter 
-                        words={['Full-Stack Developer', 'Front-End Developer', 'Backend-Developer']}
+                        words={['Full-Stack Developer', 'Front-End Developer', 'Backend-Developer', 'MERN Stack Developer', 'PERN Stack Developer']}
                         loop={0}
                         cursor={true}
                         cursorBlinking={true}
