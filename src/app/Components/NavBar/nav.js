@@ -3,7 +3,6 @@ import styles from './navbar.module.css';
 import Link from 'next/link';
 
 export default function Navbar() {
-
     return (
         <div className={` ${styles.sticky_top}`}>
             <div className={`mx-2 ${styles.nav} ${styles.flex_props}`}>
@@ -16,10 +15,9 @@ export default function Navbar() {
             <Link href="/Work" className={`${styles.nav_text} ${styles.no_dec}`}>
             <div>Work Experience</div>
             </Link>
-            <Link href="" className={`${styles.nav_text} ${styles.no_dec}`}>
+            <Link href="/Project" className={`${styles.nav_text} ${styles.no_dec}`}>
             <div >Projects</div>
             </Link>
-            <div  className={`${styles.nav_text}`}>Resume</div>
         </div>
         </div>
     )

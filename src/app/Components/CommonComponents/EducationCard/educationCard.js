@@ -13,7 +13,7 @@ export default function EducationCard(props) {
   } = props.education;
 
   return (
-    <Card sx={{ width: "100%", zIndex: 0 }}>
+    <Card sx={{ width: "100%", zIndex: 0, backgroundColor:"#f8c786", borderRadius:'1rem' }}>
       <CardActionArea>
         <CardContent>
           <div>
