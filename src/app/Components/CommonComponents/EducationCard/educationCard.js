@@ -8,7 +8,6 @@ import { CardActionArea } from "@mui/material";
 import styles from "./educationCard.module.css";
 
 export default function EducationCard(props) {
-  console.log(props.work_details);
   const {
     course_name, institute, grad_year, location, degree_type,description
   } = props.education;

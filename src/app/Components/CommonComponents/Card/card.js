@@ -7,7 +7,6 @@ import { CardActionArea } from "@mui/material";
 import styles from "./card.module.css";
 
 export default function CommonCard(props) {
-  console.log(props.work_details);
   const {
     company_name,
     end_date,
