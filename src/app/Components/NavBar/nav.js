@@ -5,19 +5,19 @@ import Link from 'next/link';
 export default function Navbar() {
 
     return (
-        <div className={styles.sticky_top}>
-            <div className={`${styles.nav} mx-2 ${styles.flex_props}`}>
+        <div className={` ${styles.sticky_top}`}>
+            <div className={`mx-2 ${styles.nav} ${styles.flex_props}`}>
             <Link href="/" className={`${styles.nav_text} ${styles.no_dec}`}>
             <div>Home</div>
             </Link>
             <Link href="/About" className={`${styles.nav_text} ${styles.no_dec}`}>
             <div>About</div>
             </Link>
-            <Link href="" className={`${styles.nav_text} ${styles.no_dec}`}>
-            <div >Projects</div>
+            <Link href="/Work" className={`${styles.nav_text} ${styles.no_dec}`}>
+            <div>Work Experience</div>
             </Link>
             <Link href="" className={`${styles.nav_text} ${styles.no_dec}`}>
-            <div >Contact</div>
+            <div >Projects</div>
             </Link>
             <div  className={`${styles.nav_text}`}>Resume</div>
         </div>

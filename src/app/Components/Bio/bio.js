@@ -4,15 +4,14 @@ import styles from "./bio.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-import CommonCard from "../CommonComponents/Card/card";
-import info from '../../../../info.json';
+
 
 export default function Bio() {
-    const [jobDetails, setJobDetails] = useState(info.work_experience)
+    
 
   return (
     <div
-      className={`container-fluid ${styles.white_background} ${styles.h_100pct}`}
+      className={`container-fluid mt-4 ${styles.white_background} ${styles.h_100pct}`}
     >
       <div className={`row m-1 ${styles.center_div}`}>
         <div className={styles.center_div}>
@@ -64,26 +63,7 @@ export default function Bio() {
             communication skills, I am dedicated to delivering innovative
             solutions that drive success.
           </p>
-        </div>
-        <div className={styles.center_div}>
-          <h1 className="mt-2">
-            <span>
-              <FontAwesomeIcon icon={faBriefcase} />
-            </span>
-            <span className={`${styles.roboto_bold} ${styles.left_margin}`}>
-              Work Experience
-            </span>
-          </h1>
-        </div>
-        <div
-          className={`${styles.left_div} ${styles.flex_col} ${styles.roboto} ${styles.w_80pct} ${styles.pad_3rem}`}
-        >
-        {
-            jobDetails && jobDetails.map((detail,i)=>(
-                <CommonCard work_details={detail}  key={i} />
-            ))
-        }
-        </div>
+        </div>        
       </div>
     </div>
   );

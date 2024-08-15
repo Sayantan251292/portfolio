@@ -156,6 +156,32 @@
                 "Reduced the logistics cost by 15% by properly negotiating with new vendors."
             ]
         }
-    ]
-    
+    ],
+    "education":[
+        {
+          "course_name": "Full-stack Web Development",
+          "institute": "Lighthouse Labs",
+          "grad_year": 2021,
+          "location": "Toronto, ON, CA",
+          "degree_type": "Bootcamp",
+          "description":"Full-stack Web Development Bootcamp where I learned Javascript, Node.js, Databases & Data Modeling, HTML, CSS, SASS, Software Architecture, React JS, and Ruby on Rails."
+        },
+        {
+          "course_name": "Engineering Business & Safeety Management",
+          "institute": "Confederation College",
+          "grad_year": 2016,
+          "location": "Thunder Bay, ON, CA",
+          "degree_type": "Post Graduate Diploma",
+          "description":"Post Graduate Diploma in Engineering Business & Safety Management \nOverall GPA: 3.59/4.00\nRoll of Honour Letter of first class standing"   
+        
+        },
+        {
+          "course_name": "Mechanical Engineering",
+          "institute": "SRM University",
+          "grad_year": 2014,
+          "location": "India",
+          "degree_type": "Bachelor’s Degree",
+          "description":"Majored in Mechanical Engineering"
+        }
+      ]    
 }
