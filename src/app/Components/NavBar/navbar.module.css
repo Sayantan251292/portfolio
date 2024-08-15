@@ -23,3 +23,11 @@
 .no_dec{
   text-decoration: none;
 }
+
+.sticky_top{
+  position: fixed;
+  top: 0;
+  background-color: #e88503;
+  width: 100%;
+  z-index: 100;
+}

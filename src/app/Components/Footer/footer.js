@@ -5,9 +5,9 @@ import next from '../../../../public/next.svg'
 
 export default function Footer() {
     return(
-        <div className={`${styles.footer} ${styles.text}`}>
+        <div className={`${styles.footer} ${styles.text} ${styles.theme}`}>
             <span >Made By Sayantan with <span className={`${styles.left} ${styles.red}`}> <FavoriteIcon />  </span></span> 
-            <span > © 2024 All Rights Reserved </span>
+            <span className={`${styles.left}`}> © 2024 All Rights Reserved </span>
         </div>
     )
 }

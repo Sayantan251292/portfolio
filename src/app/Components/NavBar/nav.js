@@ -5,7 +5,8 @@ import Link from 'next/link';
 export default function Navbar() {
 
     return (
-        <div className={`${styles.nav} mx-2 ${styles.flex_props}`}>
+        <div className={styles.sticky_top}>
+            <div className={`${styles.nav} mx-2 ${styles.flex_props}`}>
             <Link href="/" className={`${styles.nav_text} ${styles.no_dec}`}>
             <div>Home</div>
             </Link>
@@ -19,6 +20,7 @@ export default function Navbar() {
             <div >Contact</div>
             </Link>
             <div  className={`${styles.nav_text}`}>Resume</div>
+        </div>
         </div>
     )
 }

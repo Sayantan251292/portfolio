@@ -30,10 +30,25 @@
   font-style: normal;
 }
 
+.roboto_bold{
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .w_80pct{
     width: 80%;
 }
 
 .pad_3rem{
-    padding: 3rem;
+    padding: 2rem;
+}
+
+.left_margin{
+    margin-left: 0.5rem;
+}
+
+.scroll{
+    overflow-y: scroll;
 }

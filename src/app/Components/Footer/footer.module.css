@@ -2,11 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    bottom: 0;
     height: 2rem;
     width: 100%;
-    flex-direction: column;
+    position: fixed;
+    bottom: 0;
 }
 
 .text{
@@ -23,3 +22,7 @@
 .red{
     color: #ff0000;
 }
+
+.theme{
+    background-color: #e88503;
+  }
