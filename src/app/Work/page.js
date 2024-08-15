@@ -15,7 +15,7 @@ export default function Work(){
 
     return(
         
-        <div className={`mt-2 ${styles.white_background}`}>
+        <div className={`mt-2 ${styles.white_background} mb-3`}>
         <div className={`${styles.center_div}`}>
           <h1 className="mt-4">
             <span>
