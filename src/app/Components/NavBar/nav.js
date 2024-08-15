@@ -16,7 +16,7 @@ export default function Navbar() {
             <Link href="/Work" className={`${styles.nav_text} ${styles.no_dec}`}>
             <div>Work Experience</div>
             </Link>
-            <Link href="" className={`${styles.nav_text} ${styles.no_dec}`}>
+            <Link href="/Project" className={`${styles.nav_text} ${styles.no_dec}`}>
             <div >Projects</div>
             </Link>
             <div  className={`${styles.nav_text}`}>Resume</div>

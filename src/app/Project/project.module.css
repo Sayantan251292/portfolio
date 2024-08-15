@@ -1,0 +1,79 @@
+.center_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roboto{
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto_bold{
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.w_80pct{
+    width: 100%;
+}
+
+.pad_3rem{
+    padding: 2rem;
+}
+
+.left_margin{
+    margin-left: 0.5rem;
+}
+
+.collage{
+    display: flex;
+    width: 80%;
+    gap: 3rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f6b45e;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.card_img{
+    width:333px;
+    height: 205px;
+}
+
+.animated_box {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.animated_box:hover{
+    animation: shadowAnimation 2s infinite;
+}
+
+@keyframes shadowAnimation {
+    0% {
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+        box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.15);
+    }
+    100% {
+        box-shadow: -10px -10px 20px 5px rgba(0, 0, 0, 0.15);
+    }
+}
+
+
+
+
+
+
+
+
+

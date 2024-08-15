@@ -179,9 +179,56 @@
           "course_name": "Mechanical Engineering",
           "institute": "SRM University",
           "grad_year": 2014,
-          "location": "India",
+          "location": "Chennai, TN, India",
           "degree_type": "Bachelor’s Degree",
           "description":"Majored in Mechanical Engineering"
         }
-      ]    
+      ],
+      "projects":[
+        {
+            "project_name":"BlogPostApp",
+            "tech_stack":"",
+            "image_url":"https://opengraph.githubassets.com/d61026dec567dd7b1063ec770fa16685a15f3c46daade8328ecbda2278491d200316c797498ebb570c5d51f9df68e166d0b79e533012ae958d16a69f8de1b11d/Sbasu2512/BlogPostApp"
+        },
+        {
+          "project_name": "Lotide",
+          "tech_stack": "JavaScript",
+          "description": "It was a project made as a part of the Lighthouse Labs curriculum. It is a clone of lodash JavaScript library to practice various types of functions using JavaScript.",
+          "repo_link": "",
+          "live_link": "",
+          "image_url":"https://opengraph.githubassets.com/d61026dec567dd7b1063ec770fa16685a15f3c46daade8328ecbda2278491d200316c797498ebb570c5d51f9df68e166d0b79e533012ae958d16a69f8de1b11d/Sbasu2512/lotide"
+        },
+        {
+          "project_name": "TinyApp",
+          "tech_stack": "HTML, CSS, AJAX, Express JS, Node JS",
+          "description": "It was a project made as a part of the Lighthouse Labs curriculum. It is a full-stack web app built with an HTTP Server that handles requests from the browser (client). Along the way we got introduced to some more advanced JavaScript and Node concepts, and we also learnt more about Express JS.",
+          "repo_link": "",
+          "live_link": "",
+          "image_url":"https://opengraph.githubassets.com/d61026dec567dd7b1063ec770fa16685a15f3c46daade8328ecbda2278491d200316c797498ebb570c5d51f9df68e166d0b79e533012ae958d16a69f8de1b11d/Sbasu2512/tinyapp"
+        },
+        {
+          "project_name": "Tweeter",
+          "tech_stack": "HTML, CSS, JS, jQuery, Ajax",
+          "description": "It is a single page twitter clone built with HTML, CSS, JS, jQuery and Ajax.",
+          "repo_link": "",
+          "live_link": "",
+          "image_url":"https://opengraph.githubassets.com/d61026dec567dd7b1063ec770fa16685a15f3c46daade8328ecbda2278491d200316c797498ebb570c5d51f9df68e166d0b79e533012ae958d16a69f8de1b11d/Sbasu2512/tweeter"
+        },
+        {
+          "project_name": "Interview Scheduler",
+          "tech_stack": "React, R-spec, Cypress, Storybook, Axios",
+          "description": "It is a React application that allows users to book and cancel interviews. In this project, there is a combination of concise API with a WebSocket server to build a real-time experience. Testing was done using R-spec and Cypress. We learnt about React Hooks through this project and implementing REST API with axios.",
+          "repo_link": "",
+          "live_link": "",
+          "image_url":"https://opengraph.githubassets.com/d61026dec567dd7b1063ec770fa16685a15f3c46daade8328ecbda2278491d200316c797498ebb570c5d51f9df68e166d0b79e533012ae958d16a69f8de1b11d/Sbasu2512/Interview-Scheduler"
+        },
+        {
+          "project_name": "Jungle",
+          "tech_stack": "Ruby on Rails, HTML, CSS, JavaScript, jQuery",
+          "description": "It was a project made as a part of the Lighthouse Labs curriculum. It is a mini ecommerce website built with Ruby with Rails for the purposes of learning Rails 4.2 by example.",
+          "repo_link": "",
+          "live_link": "",
+          "image_url":"https://opengraph.githubassets.com/d61026dec567dd7b1063ec770fa16685a15f3c46daade8328ecbda2278491d200316c797498ebb570c5d51f9df68e166d0b79e533012ae958d16a69f8de1b11d/Sbasu2512/jungle-rails"
+        }
+      ]          
 }

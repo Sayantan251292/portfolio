@@ -15,8 +15,8 @@ export default function Work(){
 
     return(
         
-        <div>
-        <div className={styles.center_div}>
+        <div className={`mt-2 ${styles.white_background}`}>
+        <div className={`${styles.center_div}`}>
           <h1 className="mt-4">
             <span>
               <FontAwesomeIcon icon={faBriefcase} />
@@ -31,7 +31,7 @@ export default function Work(){
           >
         {
             jobDetails && jobDetails.map((detail,i)=>(
-                <div key={i} className="mt-2 w-100">
+                <div key={i} className={`mt-2 w-100`}>
                 <CommonCard work_details={detail} />
                 </div>
             ))
