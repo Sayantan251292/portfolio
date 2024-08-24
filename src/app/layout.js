@@ -4,6 +4,7 @@ import Navbar from "./Components/NavBar/nav";
 import Footer from "./Components/Footer/footer";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import { Analytics } from "@vercel/analytics/react";
 
 config.autoAddCss = false;
 
@@ -12,15 +13,15 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Sayantan Basu",
   description: "Sayantan Basu's Portfolio",
-  icons:{
-    icon:[
+  icons: {
+    icon: [
       {
-        url:'/assets/logo/logo.jpg',
-        href:'/assets/logo/logo.jpg',
-        media:'image/jpg'
-      }
-    ]
-  }
+        url: "/assets/logo/logo.jpg",
+        href: "/assets/logo/logo.jpg",
+        media: "image/jpg",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} theme h-100 mt-4`}>
         <Navbar />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
